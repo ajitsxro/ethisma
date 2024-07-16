@@ -1,0 +1,177 @@
+.hover-box {
+    display: inline-block;
+    padding: 5px;
+  }
+  .hover-box:hover {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Updated alignment */
+    padding: 10px 20px;
+    background-color: rgb(250, 234, 224);
+    position: fixed;
+    top: 0;
+    width: 95%;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .tagline {
+    color: rgb(42, 42, 190);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px; /* Adjust the margin as needed */
+  }
+
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .button {
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Set maximum width for larger screens */
+    height: auto; /* Allow height to adjust based on content */
+    border-radius: 20px;
+    margin: 10px;
+    background-color:  #e8cfb2;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .button {
+      width: 45%; /* Adjust width for larger screens */
+    }
+  }
+  
+
+  .button:hover {
+    background-color: #388cda;
+    transform: scale(1.1);
+  }
+
+  .button img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .button-title, .button-desc {
+text-align:center;
+width: 100%;
+}
+
+.button-title {
+font-weight: bold;
+    }
+
+.button-desc {
+font-size: 14px;
+}
+
+.line {
+    width: 80%;
+    height: 3px;
+    margin-left: 192px;
+    background-color: black;
+}
+
+.about-me {
+    margin-left: 192px;
+}
+
+.about-me h2 {
+    font-weight: bolder;
+    
+    font-style: italic;
+}
+
+.about-me p {
+    font-style: italic;
+    color: rgb(42, 42, 190);
+
+}
+
+.contact {
+    margin-left: 192px;
+}
+
+.contact h2 {
+    font-weight: bold;
+    color: rgb(42, 42, 190);
+    font-style: italic;
+}
+
+
+  em {
+    font-size: normal;
+    font-weight: bold;
+  }
+
+  p.links {
+    font-style: italic;
+  }
+  .active {
+font-weight: bold;
+  }
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #007bff; /* Change to desired hover color */
+}

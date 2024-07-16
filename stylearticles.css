@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.hover-box {
+    display: inline-block;
+    padding: 5px;
+  }
+  .hover-box:hover {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+  }
+
+.container {
+    position: relative;
+  }
+  
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+
+.section-row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section {
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    margin-right: 50px;
+    background-color:  #e8cfb2;
+    border: 2px solid rgb(34, 34, 113);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 10px;
+}
+
+.section:hover {
+    background-color: rgb(159, 207, 243);
+    transform: scale(1.1);
+  }
+
+.section img {
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+.section-title, .section-desc {
+text-align:center;
+width: 100%;
+}
+
+.section-title {
+font-weight: bold;
+font-size: large;
+padding: 10px;
+}
+
+.section-desc {
+font-size: 14px;
+}
+
+.text-list {
+    display: none;
+    margin-top: 20px;
+  }
+  
+.text-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.text-list ul li {
+    margin-bottom: 10px;
+  }
+
+  .highlight {
+    background-color: lightblue;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Updated alignment */
+    padding: 10px 20px;
+    background-color: rgb(250, 234, 224);
+    position: fixed;
+    top: 0;
+    width: 95%;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .tagline {
+    color: rgb(42, 42, 190);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+  }
+  em {
+    font-size: normal;
+    font-weight: bold;
+  }
+
+.active {
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Technology, Business, Philosophy, Decision Making, Forum"
+    />
+    <meta name="description" content="Decoding Tech and Navigating Ethics" />
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-odHR0o+P+ncYp2Jv5frOo9aQyotQmh+t/7hQ8ITX80uJ1Es5nArhw8lkX8uDOp17pDJ8I69pJ8q1mcBnWGtZWg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/80bbf9b27c.js" crossorigin="anonymous"></script>
+    <title>Ethisma</title>
+  </head>
+  <body style="background-color: rgb(250, 234, 224)" ;>
+    <div class="header">
+      <div class="logo-container">
+        <div class="logo"><em>ethisma</em></div>
+        <div class="tagline">Decoding Tech and Navigating Ethics.</div>
+      </div>
+      <ul class="nav-links">
+        <li><a class="hover-box" href="index.html" id="home-link">Home</a></li>
+        <li><a class="hover-box" href="articles.html" id="articles-link">Articles</a></li>
+        <li><a class="hover-box" href="submitwork.html" id="submit-link">Submit</a></li>
+      </ul>
+    </div>
+    <div class="button-container">
+        <div class="button-row">
+          <div class="button" onclick="location.href='articles.html';">
+            <img src="greekphilosopher1.png" alt="Articles">
+            <div class = "button-title">Articles</div>
+          </div>
+          <div class="button" onclick="location.href='submitwork.html';">
+            <img src="present.png" alt="Button 3">
+            <div class="button-title">Submit Your Work</div>
+          </div>
+          <div class="button" onclick="location.href='professor.html';">
+            <img src="greekphilosopher2.png" alt="Button 4">
+            <div class="button-title">Professor's Corner</div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="about-me">
+        <h2 id="section-about">About Us</h2>
+        <p>At Ethisma, we're dedicated to unraveling the intricate relationship between technology, philosophy, and decision making. Our platform fosters meaningful discussions, in-depth analysis, and cutting-edge research in the realms of <br> technology and business. With contributions from professors, experts, and students alike, we strive to illuminate the complexities of this intersection and inspire innovative thinking.</p>
+      </div>
+      <div class="line"></div>
+      <div id="section-contact" class="contact-icons">
+        <a href="https://www.linkedin.com/company/ethisma"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ethismaorg@gmail.com"><i class="far fa-envelope"></i></a>
+        <!-- Add more icons as needed -->
+    </div>
+
+      <script>
+        // Smooth scrolling function
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+      </script>
+  </body>
+</html

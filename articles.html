@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylearticles.css" />
+    <title>Document</title>
+    <script>
+      var currentPageUrl = window.location.href;
+
+// Get all the links in the header
+var links = document.querySelectorAll('nav a');
+
+// Loop through each link
+links.forEach(function(link) {
+  // Check if the link's href matches the current page URL
+  if (link.href === currentPageUrl) {
+    // If it matches, add a class to highlight the link
+    link.classList.add('active');
+  }
+});
+    </script>
+    <style></style>
+  </head>
+  <body style="background-color: rgb(250, 234, 224)" ;>
+    <div class="container">
+      <div class="header">
+        <div class="logo-container">
+          <div class="logo"><em>ethisma</em></div>
+          <div class="tagline">Decoding Tech and Navigating Ethics.</div>
+        </div>
+        <ul class="nav-links">
+          <li><a class="hover-box" href="index.html" id="home-link">Home</a></li>
+          <li><a class="hover-box" href="articles.html" id="articles-link">Articles</a></li>
+          <li><a class="hover-box" href="submitwork.html" id="submit-link">Submit</a></li>
+        </ul>
+      </div>
+        <div class="section-container">
+        <div class="section-row">
+          <div class="section">
+            <img src="AIphilosopher.png" alt="Articles">
+            <div class = "section-title">Artifical Intelligence</div>
+            <div class = "section-desc">
+              <a>I. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>II. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>III. COMING SOON</a>
+            </div>
+          </div>
+          <div class="section">
+            <img src="disciples.jpeg" alt="Collaborate">
+            <div class="section-title">Ethics</div>
+            <div class = "section-desc">
+              <a>I. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>II. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>III. COMING SOON</a>
+            </div>
+          </div>
+          <div class="section">
+            <img src="socrates.png" alt="">
+            <div class="section-title">Decision Making</div>
+            <div class = "section-desc">
+              <a>I. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>II. COMING SOON</a>
+            </div>
+            <div class="section-desc">
+              <a>III. COMING SOON</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+        <script src="scriptarticles.js"></script>
+    </body>
+</html>

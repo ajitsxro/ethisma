@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(237, 216, 204);
+    font-size: 14px;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    margin-top: 100px;
+}
+.contact-box {
+    background: #f4e0ce;
+    display: flex;
+}
+.contact-left {
+    flex-basis: 50%;
+    padding: 40px 60px;
+}
+.contact-right {
+    flex-basis: 50%;
+    padding: 40px 40px;
+    background: #edd4ae;
+    
+}
+h1 {
+    margin-bottom: 20px;
+}
+.container p {
+    margin-bottom: 30px;
+}
+.container img {
+    width: 500px;
+    height: 500px;
+}
+.input-row {
+    display: flex;
+    justify-content:  space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 6px;
+    display:block;
+    color:#624ce0;
+}
+
+.contact-left  h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right  h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Updated alignment */
+    padding: 10px 20px;
+    background-color: rgb(250, 234, 224);
+    position: fixed;
+    top: 0;
+    width: 95%;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .tagline {
+    color: rgb(42, 42, 190);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+  }
+  em {
+    font-size: normal;
+    font-weight: bold;
+  }
+  .active {
+    font-weight: bold;
+  }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleprofessor.css" />
+    <script>
+      var currentPageUrl = window.location.href;
+
+      // Get all the links in the header
+      var links = document.querySelectorAll("nav a");
+
+      // Loop through each link
+      links.forEach(function (link) {
+        // Check if the link's href matches the current page URL
+        if (link.href === currentPageUrl) {
+          // If it matches, add a class to highlight the link
+          link.classList.add("active");
+        }
+      });
+    </script>
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(250, 234, 224)" ;>
+    <div class="header">
+      <div class="logo-container">
+        <div class="logo"><em>ethisma</em></div>
+        <div class="tagline">Decoding Tech and Navigating Ethics.</div>
+      </div>
+      <ul class="nav-links">
+        <li><a class="hover-box" href="index.html" id="home-link">Home</a></li>
+        <li>
+          <a class="hover-box" href="articles.html" id="articles-link"
+            >Articles</a
+          >
+        </li>
+        <li>
+          <a class="hover-box" href="submitwork.html" id="submit-link"
+            >Submit</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1>Professor's Corner</h1>
+      <p>
+        We display amazing and interesting professors every week! <br />
+        Check out their work on our journal as well as their portfolios.
+        <br />
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Professor of the Week</h3>
+          <p>
+            <img
+              class="container-image"
+              src="professorcornerimage.jpeg"
+              alt=""
+            />
+          </p>
+        </div>
+        <div class="contact-right">
+          <h3>Who are they?</h3>
+          <p>Coming soon!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

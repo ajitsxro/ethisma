@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesubmit.css" />
+    <script>
+      var currentPageUrl = window.location.href;
+
+      // Get all the links in the header
+      var links = document.querySelectorAll("nav a");
+
+      // Loop through each link
+      links.forEach(function (link) {
+        // Check if the link's href matches the current page URL
+        if (link.href === currentPageUrl) {
+          // If it matches, add a class to highlight the link
+          link.classList.add("active");
+        }
+      });
+    </script>
+    <title>Submit Your Work</title>
+  </head>
+  <body style="background-color: rgb(250, 234, 224)">
+    <div class="header">
+      <div class="logo-container">
+        <div class="logo"><em>ethisma</em></div>
+        <div class="tagline">Decoding Tech and Navigating Ethics.</div>
+      </div>
+      <ul class="nav-links">
+        <li><a class="hover-box" href="index.html" id="home-link">Home</a></li>
+        <li>
+          <a class="hover-box" href="articles.html" id="articles-link"
+            >Articles</a
+          >
+        </li>
+        <li>
+          <a class="hover-box" href="submitwork.html" id="submit-link"
+            >Submit</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <h1>Submit Your Work</h1>
+      <p>
+        Want to be featured on our website? <br />
+        If you believe your work aligns with our goals and is a good fit for our
+        website, send us a message!
+        <br />
+        We will reach out once we recieve your request.
+      </p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Send Your Request</h3>
+          <p>1. Read about what we are looking for in papers that we add.</p>
+          <p>
+            2. If your work aligns with our interests, send an email to us at
+            ethismaorg@gmail.com
+          </p>
+          <p>3. Patienly wait for our response!</p>
+          <p>
+            4. Check out our sample prompts for some ideas for future papers.
+          </p>
+        </div>
+        <div class="contact-right">
+          <h3>Sample Prompts</h3>
+          <h3>
+            We are looking for reader-made papers that represent our goals and
+            vision for this website. <br />
+            Work on topics such as Artificial Intelligence, Ethics, Decision
+            Making, Strategy in Business, etc. are all welcome. <br />Reach out
+            with any questions or inquiries!
+          </h3>
+          <h3>Sample Prompts:</h3>
+          <table>
+            <tr>
+              <td>Prompt 1:</td>
+              <td>tbd</td>
+            </tr>
+            <tr>
+              <td>Prompt 2:</td>
+              <td>tbd</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
